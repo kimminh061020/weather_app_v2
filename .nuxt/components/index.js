@@ -1,4 +1,4 @@
-export const AppHeader = () => import('../..\\components\\AppHeader.vue' /* webpackChunkName: "components/app-header" */).then(c => wrapFunctional(c.default || c))
+export { default as AppHeader } from '../..\\components\\AppHeader.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
