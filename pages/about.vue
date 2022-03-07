@@ -1,36 +1,17 @@
 <template>
-<div>
+<div id="main">
     <AppHeader />
     
-<div id="about-wrapper">
-    <h1> Made By Mark Nguyen</h1>
-<div class="carousel-inner" role="listbox" style=" width:1024px; height: 480px !important; text-align: center">
-  <b-carousel
-    id="carousel-fade"
-    style="text-shadow: 0px 0px 2px #000"
-    fade
-    indicators
-    img-width="1024"
-    img-height="480"
-  >
-    <b-carousel-slide
-      caption="Awesome Weathenur App"
-      text="This is an app to check weather based on city names"
-      img-src="../assets/rodion-kutsaev-PEm_sLmJT-w-unspl.jpg"
-    ></b-carousel-slide>
-    <b-carousel-slide
-      caption="Awesome Weather App"
-      text="This is an app to check weather based on city names"
-      img-src="../assets/jeremy-thomas-E0AHdsENmDg-unspla.jpg"
-    ></b-carousel-slide>
-    <b-carousel-slide
-      caption="Awesome Weather App"
-      text="This is an app to check weather based on city names"
-      img-src="../assets/damian-mccoig-2HqpqSqy0zg-unspla.jpg"
-    ></b-carousel-slide>
-  </b-carousel>
-</div>
-</div>
+<div class="site-header-content">
+                    <span class="site-title">
+                        <img class="my-face" src="../assets/my-face.jpg" alt="Mark Nguyen's Website">
+                        Hi, I'm Mark Nguyen
+                    </span>
+                    <span class="site-description">I write about building profitable indie products as a developer</span>
+                    <p style="color: #818189; margin: 24px auto 0; text-align: center; max-width: 500px;">I'm building an app called <a href="../pages/index.vue" target="_blank">Awesome Weather</a> using Nuxt.js</p>
+                    <br>
+<a href="https://twitter.com/Minh17234068?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Minh17234068</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
 </div>
 </template>
 
@@ -55,13 +36,70 @@ head() {
 
 
 <style scoped>
-#about-wrapper {
+.site-home-header .site-header-content {
+    padding: 5vw 3vw 6vw;
+}
+
+.site-header-content {
+    z-index: 100;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 6vw 3vw;
+    max-height: 100%;
+    color: #fff;
+    background: #090a0b no-repeat 50%;
+    background-size: cover;
 }
-h1 {
-    padding-top: 2%;
-    padding-bottom: 2%;
+
+.site-home-header .site-title {
+    font-size: 4rem;
+    text-align: center;
 }
+
+.site-title {
+    z-index: 10;
+    margin: 0 0 0 -2px;
+    padding: 0;
+    font-size: 4rem;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+.my-face {
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+img {
+    opacity: .9;
+}
+}
+img {
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+}
+
+#main {
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #090a0b no-repeat 50%;
+}
+
+.site-description {
+    z-index: 10;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.5rem;
+    line-height: 1.4em;
+    font-weight: 400;
+    opacity: .8;
+}
+
 </style>
