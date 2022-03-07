@@ -1,0 +1,15 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/app-header.js": "components/app-header.js",
+    "pages/about.js": "pages/about.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/app-header.js": "components/app-header.js.map",
+    "pages/about.js": "pages/about.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

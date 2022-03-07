@@ -8,7 +8,7 @@
                         Hi, I'm Mark Nguyen
                     </span>
                     <span class="site-description">I write about building profitable indie products as a developer</span>
-                    <p style="color: #818189; margin: 24px auto 0; text-align: center; max-width: 500px;">I'm building an app called <a href="../pages/index.vue" target="_blank">Awesome Weather</a> using Nuxt.js</p>
+                    <p style="color: #818189; margin: 24px auto 0; text-align: center; max-width: 500px;">I'm building an app called <a href="/" target="_blank">Awesome Weather</a> using Nuxt.js</p>
                     <br>
 <a href="https://twitter.com/Minh17234068?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Minh17234068</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
